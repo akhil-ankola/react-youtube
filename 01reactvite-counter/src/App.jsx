@@ -6,7 +6,9 @@ function App() {
   const[count, setcount] = useState(0);
 
   function addCountHandler(){
-    return setcount(count+1);
+    if(count<10){
+      return setcount(count+1);
+    }
   }
   function removeCountHandler(){
     return setcount(count-1);
