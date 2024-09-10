@@ -1,1 +1,6 @@
 Lect-1) normail conversition , react history and future 
+
+
+Memoization)
+
+-> 
